@@ -1,5 +1,5 @@
 # OIBSIP
-Here have added all the projects i worked on during my one month internship at OASIS INFOBYTE
+Here have added all the projects i worked on during my one month internship at OASIS INFOBYTE.
 ### : Project1 :EXPLORATORY DATA ANALYSIS  (EDA) ON RETAIL SALES
 Here is the[Dataset](https://drive.google.com/file/d/1HsxLZSshRD2o63EJ-DTze6TsFlGDsXO5/view?usp=drive_link) used 
 In this project, have worked with a dataset containing information about retail sales. The goal is
