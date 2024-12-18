@@ -46,3 +46,41 @@ Here i provided visualisation on my findings at every stage
 ## 6.Recommendations: Provide actionable recommendations based on the EDA.
 Based on my analysis and findings i provided various recommendations
 click [here](https://drive.google.com/file/d/1IfB28_chCjVYUXWB4lowjTeukhtZjX-H/view?usp=sharing) to acces the recommendations.
+
+### Project 2 Data Cleaning
+Data cleaning is the process of fixing or removing incorrect, corrupted, duplicate, or incomplete
+data within a dataset. Messy data leads to unreliable outcomes. Cleaning data is an essential
+part of data analysis.
+Here is the [Dataset](https://drive.google.com/file/d/1-tHKRVvu9mEvSQ0E8FtoC6a8eC-dHl5u/view?usp=sharing) used in this project
+
+Also available on kaggle as New York City Airbnb Open Data
+
+## Missing Data Handling
+First I checked for Null values in the dataset which happen to appear in only one column Reviews per month.
+Handled these by substituting them by average of values given .
+
+Checked on columns with white spaces then which happen to appear in three columns: name,host name and last review
+converted them to Null values aftterwards omitted them from the data 
+
+## Duplicate Removal
+Checked if there was any duplicated rows.This is done to ensure data uniqueness
+
+## Did standadization which involved the following:
+Removing columns like id,name,host_id,host name and neighbourhood that are not important in analysis process
+
+Converted neighbourhood group and room type into factors since they are categorical data
+
+Converted last review into date format
+
+Renamed the columns approriately.
+
+## Outlier Detection
+Peformed this on Continous variables in the data
+Plotting numeric columns to see distribution then addressing outliers.Used box plot.
+
+Then calculated quantiles,intequantile range,lower bound and upperbound of the variables
+
+Then standadized values that were far much higher than upper bound by replacing them by average values.
+
+
+
