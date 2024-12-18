@@ -47,7 +47,7 @@ Here i provided visualisation on my findings at every stage
 Based on my analysis and findings i provided various recommendations
 click [here](https://drive.google.com/file/d/1IfB28_chCjVYUXWB4lowjTeukhtZjX-H/view?usp=sharing) to acces the recommendations.
 
-Here is the link to [R codes](https://drive.google.com/file/d/1d3e5qliyzW6WA2vAGnrCvZl505l11-MC/view?usp=sharing) used in this project.Also uploaded above
+Here is the link to [R codes](https://drive.google.com/file/d/1d3e5qliyzW6WA2vAGnrCvZl505l11-MC/view?usp=sharing) used in this project.Also uploaded above as Retail_Sales
 
 
 ### PROJECT 2 DATA CLEANING
@@ -85,7 +85,7 @@ Then calculated quantiles,intequantile range,lower bound and upperbound of the v
 
 Then standadized values that were far much higher than upper bound by replacing them by average values.
 
-Here is the link to [R codes](https://drive.google.com/file/d/1UQHOsNZefXZ3ly2X4n2ynK1au7TdXq52/view?usp=sharing) used in this project.Also uploaded above
+Here is the link to [R codes](https://drive.google.com/file/d/1UQHOsNZefXZ3ly2X4n2ynK1au7TdXq52/view?usp=sharing) used in this project.Also uploaded above Data_Cleaning
 
 
 
