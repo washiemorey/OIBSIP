@@ -1,6 +1,6 @@
 # OIBSIP
 Here have added all the projects i worked on during my one month internship at OASIS INFOBYTE
-### : Project1 :Exploratory Data Analysis (EDA) on Retail Sales Data
+### : Project1 :EXPLORATORY DATA ANALYSIS  (EDA) ON RETAIL SALES
 Here is the[Dataset](https://drive.google.com/file/d/1HsxLZSshRD2o63EJ-DTze6TsFlGDsXO5/view?usp=drive_link) used 
 In this project, have worked with a dataset containing information about retail sales. The goal is
 to perform exploratory data analysis (EDA) to uncover patterns, trends, and insights that can
@@ -47,7 +47,10 @@ Here i provided visualisation on my findings at every stage
 Based on my analysis and findings i provided various recommendations
 click [here](https://drive.google.com/file/d/1IfB28_chCjVYUXWB4lowjTeukhtZjX-H/view?usp=sharing) to acces the recommendations.
 
-### Project 2 Data Cleaning
+Here is the link to [R codes](https://drive.google.com/file/d/1d3e5qliyzW6WA2vAGnrCvZl505l11-MC/view?usp=sharing) used in this project.Also uploaded above
+
+
+### PROJECT 2 DATA CLEANING
 Data cleaning is the process of fixing or removing incorrect, corrupted, duplicate, or incomplete
 data within a dataset. Messy data leads to unreliable outcomes. Cleaning data is an essential
 part of data analysis.
@@ -81,6 +84,8 @@ Plotting numeric columns to see distribution then addressing outliers.Used box p
 Then calculated quantiles,intequantile range,lower bound and upperbound of the variables
 
 Then standadized values that were far much higher than upper bound by replacing them by average values.
+
+Here is the link to [R codes](https://drive.google.com/file/d/1UQHOsNZefXZ3ly2X4n2ynK1au7TdXq52/view?usp=sharing) used in this project.Also uploaded above
 
 
 
