@@ -1,7 +1,7 @@
 # OIBSIP
 Here have added all the projects i worked on during my one month internship at OASIS INFOBYTE.
 ### : Project1 :EXPLORATORY DATA ANALYSIS  (EDA) ON RETAIL SALES
-Here is the[Dataset](https://drive.google.com/file/d/1HsxLZSshRD2o63EJ-DTze6TsFlGDsXO5/view?usp=drive_link) used 
+Here is the [Dataset](https://drive.google.com/file/d/1HsxLZSshRD2o63EJ-DTze6TsFlGDsXO5/view?usp=drive_link) used 
 In this project, have worked with a dataset containing information about retail sales. The goal is
 to perform exploratory data analysis (EDA) to uncover patterns, trends, and insights that can
 help the retail business make informed decisions.
@@ -85,7 +85,7 @@ Then calculated quantiles,intequantile range,lower bound and upperbound of the v
 
 Then standadized values that were far much higher than upper bound by replacing them by average values.
 
-Here is the link to [R codes](https://drive.google.com/file/d/1UQHOsNZefXZ3ly2X4n2ynK1au7TdXq52/view?usp=sharing) used in this project.Also uploaded above Data_Cleaning
+Here is the link to [R codes](https://drive.google.com/file/d/1UQHOsNZefXZ3ly2X4n2ynK1au7TdXq52/view?usp=sharing) used in this project.Also uploaded above as Data_Cleaning
 
 
 
