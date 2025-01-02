@@ -40,7 +40,7 @@ boxplot(data$Area,main = "PRICE DISTRIBUTION",horizontal = TRUE)
 #Visualizing variables distribution 
 plot(data)
 
-#Post Resample test before building the model
+#Pre Resample test before building the model
 
 #Testing for Multicollinearity among independent variables
 corelation_matrix <- cor(data %>% select(Area,Bedrooms,Stories,Parking))
