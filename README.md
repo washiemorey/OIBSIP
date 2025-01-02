@@ -125,7 +125,7 @@ Price = −12528831+1775088⋅log(Area)+767680⋅Bathrooms+241679⋅Parking+5564
 
 
 ## 5. Model Evaluation
-Did prediction of price using seperate dataset.Afterwards did model evalution by chicking on error and postresample test.
+Did prediction of price using seperate dataset (test data).Afterwards did model evalution by checking on error and postresample test.
 The variables used explain about 38.8% variations in Price
 
 ## 6. Visualization
