@@ -1,6 +1,6 @@
 # OIBSIP
 Here have added all the projects i worked on during my one month internship at OASIS INFOBYTE.
-### : Project1 :EXPLORATORY DATA ANALYSIS  (EDA) ON RETAIL SALES
+### : PRIOJECT 1 :EXPLORATORY DATA ANALYSIS  (EDA) ON RETAIL SALES
 Here is the [Dataset](https://drive.google.com/file/d/1HsxLZSshRD2o63EJ-DTze6TsFlGDsXO5/view?usp=drive_link) used 
 In this project, have worked with a dataset containing information about retail sales. The goal is
 to perform exploratory data analysis (EDA) to uncover patterns, trends, and insights that can
@@ -58,17 +58,17 @@ Here is the [Dataset](https://drive.google.com/file/d/1-tHKRVvu9mEvSQ0E8FtoC6a8e
 
 Also available on kaggle as New York City Airbnb Open Data
 
-## Missing Data Handling
+## 1. Missing Data Handling
 First I checked for Null values in the dataset which happen to appear in only one column Reviews per month.
 Handled these by substituting them by average of values given .
 
 Checked on columns with white spaces then which happen to appear in three columns: name,host name and last review
 converted them to Null values aftterwards omitted them from the data 
 
-## Duplicate Removal
+## 2. Duplicate Removal
 Checked if there was any duplicated rows.This is done to ensure data uniqueness
 
-## Did standadization which involved the following:
+##  3. Did standadization which involved the following:
 Removing columns like id,name,host_id,host name and neighbourhood that are not important in analysis process
 
 Converted neighbourhood group and room type into factors since they are categorical data
@@ -77,7 +77,7 @@ Converted last review into date format
 
 Renamed the columns approriately.
 
-## Outlier Detection
+## 4. Outlier Detection
 Peformed this on Continous variables in the data
 Plotting numeric columns to see distribution then addressing outliers.Used box plot.
 
@@ -86,6 +86,52 @@ Then calculated quantiles,intequantile range,lower bound and upperbound of the v
 Then standadized values that were far much higher than upper bound by replacing them by average values.
 
 Here is the link to [R codes](https://drive.google.com/file/d/1UQHOsNZefXZ3ly2X4n2ynK1au7TdXq52/view?usp=sharing) used in this project.Also uploaded above as Data_Cleaning
+
+
+### PROJECT 3 : LINEAR REGRESSION MODEL
+This project involves building linear regression model to predict housess prices.
+
+Here is the [HousingDataset](https://drive.google.com/file/d/1YvTBuP9vhPTrKgkqq4BQhqAra_DgKla7/view?usp=drive_link) used in this project
+
+First i imported the data into R as csv file
+
+## 1. .Feature Selection
+Here i selected relevant features that contribute to predictive model.
+
+These were numeric columns which were:  Area,  Bedrooms,  Bathrooms,Stories,Parking and Price which is the dependent variable respectively
+
+Then renamed these columns appropriately.
+
+## 2. Exploration ,Cleaning and Checking forb NA values
+I did exploration on the data to understand basic statistics like,mean,median,first quartile ,third quartile,minimun and maximum values.
+
+Also checked for NA values in the  columns.
+
+Checked for outliers that could affect the model  in Area and Pricing columns and replaced them with mean valus.
+
+## 3. Post Resample Test 
+I checked for multicollinearity among the independent variables.This was by creating a correlation matrix,also by creating model and checking on vif of the variables.
+
+Checked for normality on Area which is continous indipendent variables.Afterwards,did transformation to Log of area to archieve normality.This was done by Histogram plots together with debsity lines and Shapiro wilk test of Normality.
+
+## 4. Model Training
+I sploted the data into two one for training which I used 70% of the data  and one for testing the model wgich i used 30% of the data.
+
+Did summary of the model and found Brdrooms variable to the insignificant then removed it from the model.
+
+Here is the model for predicting Price
+
+Price = −12528831+1775088⋅log(Area)+767680⋅Bathrooms+241679⋅Parking+556444⋅Stories
+
+
+## 5. Model Evaluation
+Did prediction of price using seperate dataset.Afterwards did model evalution by chicking on error and postresample test.
+The variables used explain about 38.8% variations in Price
+
+## 6. Visualization
+Did visualizations to illustrate the relationship between the predicted and actual values.
+
+Here is the link to [R codes](https://drive.google.com/file/d/16X_3dEWv6eSWd7AO-lvMF6zxCSUSLAzE/view?usp=drive_link) used in this project.Also uploaded above as Linear_Regression
 
 
 
