@@ -107,7 +107,7 @@ I did exploration on the data to understand basic statistics like,mean,median,fi
 
 Also checked for NA values in the  columns.
 
-Checked for outliers that could affect the model  in Area and Pricing columns and replaced them with mean valus.
+Checked for outliers that could affect the model  in Area and Pricing columns and replaced them with mean values.
 
 ## 3. Pre  Resample Test 
 I checked for multicollinearity among the independent variables.This was by creating a correlation matrix,also by creating model and checking on vif of the variables.
@@ -115,7 +115,7 @@ I checked for multicollinearity among the independent variables.This was by crea
 Checked for normality on Area which is continous indipendent variables.Afterwards,did transformation to Log of area to archieve normality.This was done by Histogram plots together with debsity lines and Shapiro wilk test of Normality.
 
 ## 4. Model Training
-I sploted the data into two one for training which I used 70% of the data  and one for testing the model wgich i used 30% of the data.
+I splited the data into two one for training which I used 70% of the data  and one for testing the model wgich i used 30% of the data.
 
 Did summary of the model and found Brdrooms variable to the insignificant then removed it from the model.
 
